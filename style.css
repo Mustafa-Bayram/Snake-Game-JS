@@ -1,0 +1,48 @@
+body {
+  background-image: url("images/bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 30px;
+  width: 10%;
+}
+.score {
+  position: absolute;
+  right: 5%;
+  font-size: 2.3rem;
+  display: grid;
+  place-items: center;
+  margin: 1rem;
+
+  color:black ;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+.content {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin-right: 280px;
+}
+.content h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.content p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+}
+
